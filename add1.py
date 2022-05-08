@@ -54,7 +54,11 @@ class adds:
         utype_stud=Label(s.root,text="Status",font=("times new roman" ,15, "bold"),fg="#FFFDD0",bg="#7E481C",bd=3)
         utype_stud.place(x=61,y=390,height=40,width=110)
 
-       
+         ##-----------Password--------
+        utype_stud=Label(s.root,text="Password",font=("times new roman" ,15, "bold"),fg="#FFFDD0",bg="#7E481C",bd=3)
+        utype_stud.place(x=611,y=390,height=40,width=110)
+
+
 
         ###---------ENTRY -----------
         user_Estud=Entry(s.root,textvariable=s.var_stud_id,font=("times new roman" ,15),bg="white",bd=4)
